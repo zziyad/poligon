@@ -23,8 +23,7 @@ const employee = [
 ]
 
 app.get('/', (req, res) => {
-//   res.status(200).json(employee)
-res.send(employee)
+  res.status(200).json(employee)
 })
 
 app.listen(port, () => {
